@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# Database (CRITICAL: Do not push private data)
+app/data/*.db
+app/data/*.db-journal
+
+# Assets & Backups
+backups/*.db
+exports/*.xlsx
+exports/*.html
+invoices/*.pdf
+photos/*.jpg
+photos/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
